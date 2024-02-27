@@ -1,0 +1,27 @@
+body{
+
+}
+.cyber{
+    width: 80%;
+    height: 30% !important;
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content:space-between;
+    gap: 2.0%;
+    margin: 5%;
+    background-color: antiquewhite;
+    
+}
+ 
+@media only screen and (max-width:72px) {
+    .cyber {
+        grid-template-columns: auto ; /* Two columns instead of three */
+        background-color: aquamarine;
+        font-style: italic;
+    }
+    .topbar{
+        font-size: large;
+        font-style: italic;
+        
+    }
+}
